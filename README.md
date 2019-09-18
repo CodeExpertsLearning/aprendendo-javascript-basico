@@ -1,4 +1,4 @@
-# Aprendendo Javascript
+# Aprendendo Javascript Básico
 
 O Javascript é uma linguagem criada por Brendan Eich, e é largamente utilizada na Web hoje em dia. O Javascript tornou-se tão popular que hoje, além de fazer seu trabalho bem feito na Web nos browsers em geral, também buscou lugar em aplicações Backend, por meio do NodeJS, e está presente na API de alguns bancos NoSQL.
 
