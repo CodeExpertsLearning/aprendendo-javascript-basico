@@ -18,7 +18,7 @@ Para usar conteúdo javascript em uma página HTML você pode usar duas formas m
 - Código na mesma página;
 - Ou usando a linkagem de uma arquivo externo.
 
-Por exemplo, vamos realizar um hello world com javascript lançando um alerta em uma página HTML simples:
+Por exemplo, vamos realizar um hello world com javascript lançando um alerta em uma página HTML simples. Pra isso crie em um local de sua escolha o arquivo `index.html` com o código abaixo:
 
 ```html
 	<html>
@@ -35,8 +35,42 @@ Por exemplo, vamos realizar um hello world com javascript lançando um alerta em
 	    </body>
 	</html>
 ```
+
+Para testar é só abrir o arquivo em seu browser de escolha.
+
 Acima utilizamos o Javascript na própria página entre as tags script, que delimita onde começa e termina nosso código Javascript.
 
+Se quisermos linkar o javascript externamente, basta realizarmos a seguinte alteração:
+
+```html
+	<html>
+	    <head>
+	        <meta charset="UTF-8">
+	        <title>Hello World Javascript</title>
+	    </head>
+	    <body>
+	        <h1>Hello World com Javascript</h1>
+	        
+	        <script src="helloWorld.js"></script>
+	    </body>
+	</html>
+```
+
+Agora informamos o atributo `src` da tag script que refere o caminho até o arquivo javascript em questão, em nosso caso o `helloWorld` com a extensão `.js`. 
+
+Para o código funcionar, como está acima, crie um arquivo `helloWorld.js` na mesma pasta onde está seu `index.html` e coloque o conteúdo abaixo.
+
+**helloWorld.js**:
+
+```javascritp
+    
+    alert('Hello World');
+	            
+```
+
+Como estamos lançando apenas um alert, o código se mantêm o mesmo.
+
+## Conteúdo do curso:
 
 Conheça mais desta linguagem acessando os conteúdos abaixo:
 
