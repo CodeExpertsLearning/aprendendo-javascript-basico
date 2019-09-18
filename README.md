@@ -11,6 +11,31 @@ O Javascript é uma linguagem interpretada, fracamente tipada, além de ser prot
 
 A lista com Javascript no Frontend, ou WebBrowser, é imensa não fica só nas listadas acima mas já serve para você ter uma excelente noção do poder desta linguagem que a cada ano vêm ganhando novas funcionalidades, trazendo assim mais poder e mais possibilidades na criação de páginas web ricas.
 
+## Linkando Javascript em nossa Página HTML
+
+Para usar conteúdo javascript em uma página HTML você pode usar duas formas mais indicadas. São elas:
+
+- Código na mesma página;
+- Ou usando a linkagem de uma arquivo externo.
+
+Por exemplo, vamos realizar um hello world com javascript lançando um alerta em uma página HTML simples:
+
+```html
+	<html>
+	    <head>
+	        <meta charset="UTF-8">
+	        <title>Hello World Javascript</title>
+	    </head>
+	    <body>
+	        <h1>Hello World com Javascript</h1>
+	        
+	        <script>
+	            alert('Hello World');
+	        </script>
+	    </body>
+	</html>
+```
+Acima utilizamos o Javascript na própria página entre as tags script, que delimita onde começa e termina nosso código Javascript.
 
 
 Conheça mais desta linguagem acessando os conteúdos abaixo:
