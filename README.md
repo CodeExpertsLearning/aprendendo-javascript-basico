@@ -68,7 +68,7 @@ Para o código funcionar, como está acima, crie um arquivo `helloWorld.js` na m
 	            
 ```
 
-Como estamos lançando apenas um alert, o código se mantêm o mesmo.
+Como estamos lançando apenas um alert, o código se mantêm o mesmo dentro do `helloWorld.js`.
 
 ## Conteúdo do curso:
 
