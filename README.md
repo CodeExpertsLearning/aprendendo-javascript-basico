@@ -75,7 +75,7 @@ Como estamos lançando apenas um alert, o código se mantêm o mesmo dentro do `
 Conheça mais desta linguagem acessando os conteúdos abaixo:
 
 - Variáveis & Tipos Básicos: [acessar](licoes/variaveis-tipos-basicos.md);
-- Operadores - Aritméticos: acessar;
+- Operadores - Aritméticos: [acessar](licoes/operadores-aritmeticos.md);
 - Operadores - Comparação: acessar;
 - Operadores - Lógicos: acessar;
 - Estruturas de Controle - Condicionais: acessar;
